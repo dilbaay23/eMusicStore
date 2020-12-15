@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="eMusicStore:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>eMusicStore</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="emusicstore-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="eMusicStore:war exploded" />
+    </root>
+  </artifact>
+</component>
